@@ -26,6 +26,7 @@ git init
 git add *
 git commit -m &quot;jenkins backup on &quot;date&quot;&quot;
 git push https://github.com/avinashcta16/jenkinsbackup.git
+ git push --set-upstream https://github.com/avinashcta16/jenkinsbackup.git master
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
