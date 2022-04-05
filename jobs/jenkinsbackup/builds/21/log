@@ -3,3 +3,24 @@ Running as SYSTEM
 Building on the built-in node in workspace /var/lib/jenkins/workspace/jenkinsbackup
 [jenkinsbackup] $ /bin/bash /tmp/jenkins2714127366968156957.sh
 Reinitialized existing Git repository in /var/lib/jenkins/.git/
+[master 419d2b5] jenkins backup on date
+ Committer: Jenkins Automation Server <jenkins@ip-172-31-18-110.us-east-2.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 63 insertions(+), 7 deletions(-)
+ create mode 100644 jobs/jenkinsbackup/builds/20/build.xml
+ create mode 100644 jobs/jenkinsbackup/builds/21/changelog.xml
+ create mode 100644 jobs/jenkinsbackup/builds/21/log
+fatal: could not read Username for 'https://github.com': No such device or address
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
