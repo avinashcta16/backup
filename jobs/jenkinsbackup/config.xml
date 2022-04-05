@@ -27,7 +27,7 @@ git commit -m &quot;jenkins backup on &quot;date&quot;&quot;
  
    
  
-git push git@github.com:avinashcta16/jenkinsbackup.git</command>
+git push  https://github.com/avinashcta16/jenkinsbackup.git</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
