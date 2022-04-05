@@ -24,8 +24,7 @@ git init
 git add *
 
 git commit -m &quot;jenkins backup on &quot;date&quot;&quot;
-git config --global user.name avinashcta16
-git config --global user.email avinashcta16@gmail.com 
+ 
    
  
 git push git@github.com:avinashcta16/jenkinsbackup.git</command>
