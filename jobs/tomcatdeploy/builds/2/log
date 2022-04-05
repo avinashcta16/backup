@@ -1,0 +1,90 @@
+Started by user [8mha:////4BUXExCvYfgfyzPxyIIFbTcroj3K37tew+z9gws45brgAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0madministrator
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/tomcatdeploy
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/tomcatdeploy/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/avinashcta16/boxfuse-sample-java-war-hello.git # timeout=10
+Fetching upstream changes from https://github.com/avinashcta16/boxfuse-sample-java-war-hello.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/avinashcta16/boxfuse-sample-java-war-hello.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 5ee91d88d11303fe2cd4dd370fc20e304f098ba9 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5ee91d88d11303fe2cd4dd370fc20e304f098ba9 # timeout=10
+Commit message: "Update index.jsp"
+ > git rev-list --no-walk 5ee91d88d11303fe2cd4dd370fc20e304f098ba9 # timeout=10
+[tomcatdeploy] $ /bin/sh -xe /tmp/jenkins8632236359009476330.sh
++ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.boxfuse.samples:hello >----------------------
+[INFO] Building hello 1.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ hello ---
+[INFO] Deleting /var/lib/jenkins/workspace/tomcatdeploy/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hello ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/tomcatdeploy/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ hello ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/tomcatdeploy/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hello ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/tomcatdeploy/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ hello ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hello ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.5:war (default-war) @ hello ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [hello] in [/var/lib/jenkins/workspace/tomcatdeploy/target/hello-1.0]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/tomcatdeploy/src/main/webapp]
+[INFO] Webapp assembled in [143 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/tomcatdeploy/target/hello-1.0.war
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ hello ---
+[INFO] Installing /var/lib/jenkins/workspace/tomcatdeploy/target/hello-1.0.war to /var/lib/jenkins/.m2/repository/com/boxfuse/samples/hello/1.0/hello-1.0.war
+[INFO] Installing /var/lib/jenkins/workspace/tomcatdeploy/pom.xml to /var/lib/jenkins/.m2/repository/com/boxfuse/samples/hello/1.0/hello-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.235 s
+[INFO] Finished at: 2022-04-04T17:50:12Z
+[INFO] ------------------------------------------------------------------------
+[DeployPublisher][INFO] Attempting to deploy 16 war file(s)
+[DeployPublisher][INFO] Deploying /var/lib/jenkins/workspace/tomcatdeploy/LICENSE to container Tomcat 8.x Remote with context **/*.war
+ERROR: Build step failed with exception
+java.lang.RuntimeException: Extension File Error. Unsupported: .""
+	at hudson.plugins.deploy.CargoContainerAdapter.deploy(CargoContainerAdapter.java:86)
+	at hudson.plugins.deploy.CargoContainerAdapter$DeployCallable.invoke(CargoContainerAdapter.java:167)
+	at hudson.plugins.deploy.CargoContainerAdapter$DeployCallable.invoke(CargoContainerAdapter.java:136)
+	at hudson.FilePath.act(FilePath.java:1200)
+	at hudson.FilePath.act(FilePath.java:1183)
+	at hudson.plugins.deploy.CargoContainerAdapter.redeployFile(CargoContainerAdapter.java:133)
+	at hudson.plugins.deploy.PasswordProtectedAdapterCargo.redeployFile(PasswordProtectedAdapterCargo.java:95)
+	at hudson.plugins.deploy.DeployPublisher.perform(DeployPublisher.java:113)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:79)
+	at hudson.tasks.BuildStepMonitor$3.perform(BuildStepMonitor.java:47)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:814)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:763)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:707)
+	at hudson.model.Run.execute(Run.java:1921)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Build step 'Deploy war/ear to a container' marked build as failure
+Finished: FAILURE

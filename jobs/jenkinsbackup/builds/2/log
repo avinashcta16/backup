@@ -1,0 +1,8 @@
+Started by user [8mha:////4BUXExCvYfgfyzPxyIIFbTcroj3K37tew+z9gws45brgAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0madministrator
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/jenkinsbackup
+[jenkinsbackup] $ /bin/bash /tmp/jenkins5127071190417961111.sh
+/tmp/jenkins5127071190417961111.sh: line 6: syntax error near unexpected token `fi'
+/tmp/jenkins5127071190417961111.sh: line 6: `fi'
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

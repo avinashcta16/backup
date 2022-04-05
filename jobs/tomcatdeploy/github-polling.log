@@ -1,0 +1,13 @@
+Started on Apr 4, 2022 6:14:02 PM
+Started by event from 140.82.115.245 ⇒ http://3.140.241.57:8080/github-webhook/ on Mon Apr 04 18:14:02 UTC 2022
+Using strategy: Default
+[poll] Last Built Revision: Revision 5ee91d88d11303fe2cd4dd370fc20e304f098ba9 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git ls-remote -h -- https://github.com/avinashcta16/boxfuse-sample-java-war-hello.git # timeout=10
+Found 1 remote heads on https://github.com/avinashcta16/boxfuse-sample-java-war-hello.git
+[poll] Latest remote head revision on refs/heads/master is: 6f984b237fc4578723d53b1250ec1c41ef8032d0
+Done. Took 0.11 sec
+Changes found

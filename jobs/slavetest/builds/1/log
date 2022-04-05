@@ -1,0 +1,6 @@
+Started by user [8mha:////4BUXExCvYfgfyzPxyIIFbTcroj3K37tew+z9gws45brgAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0madministrator
+Running as SYSTEM
+Building remotely on [8mha:////4CO4vQvvoA7BEgmPSmLdmqSv617wyd7KvT+goiqKyhhYAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (java) in workspace /home/ec2-user/workspace/slavetest
+[slavetest] $ /bin/sh -xe /tmp/jenkins6912150057170582770.sh
++ touch mk2 bk2 pk2
+Finished: SUCCESS

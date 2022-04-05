@@ -1,0 +1,9 @@
+Started by user [8mha:////4BUXExCvYfgfyzPxyIIFbTcroj3K37tew+z9gws45brgAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0madministrator
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/jenkinsbackup
+[jenkinsbackup] $ /bin/bash /tmp/jenkins8730110124695952960.sh
+/tmp/jenkins8730110124695952960.sh: line 2: cd: /var/lib/jenlins/: No such file or directory
+/tmp/jenkins8730110124695952960.sh: line 6: syntax error near unexpected token `fi'
+/tmp/jenkins8730110124695952960.sh: line 6: `fi'
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

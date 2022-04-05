@@ -1,0 +1,71 @@
+Started by GitHub push by avinashcta16
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/tomcatdeploy
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/tomcatdeploy/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/avinashcta16/boxfuse-sample-java-war-hello.git # timeout=10
+Fetching upstream changes from https://github.com/avinashcta16/boxfuse-sample-java-war-hello.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/avinashcta16/boxfuse-sample-java-war-hello.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 6f984b237fc4578723d53b1250ec1c41ef8032d0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6f984b237fc4578723d53b1250ec1c41ef8032d0 # timeout=10
+Commit message: "Update index.jsp"
+ > git rev-list --no-walk 5ee91d88d11303fe2cd4dd370fc20e304f098ba9 # timeout=10
+[tomcatdeploy] $ /bin/sh -xe /tmp/jenkins3954198467144734644.sh
++ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.boxfuse.samples:hello >----------------------
+[INFO] Building hello 1.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ hello ---
+[INFO] Deleting /var/lib/jenkins/workspace/tomcatdeploy/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hello ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/tomcatdeploy/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ hello ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/tomcatdeploy/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hello ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/tomcatdeploy/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ hello ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hello ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.5:war (default-war) @ hello ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [hello] in [/var/lib/jenkins/workspace/tomcatdeploy/target/hello-1.0]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/tomcatdeploy/src/main/webapp]
+[INFO] Webapp assembled in [71 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/tomcatdeploy/target/hello-1.0.war
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ hello ---
+[INFO] Installing /var/lib/jenkins/workspace/tomcatdeploy/target/hello-1.0.war to /var/lib/jenkins/.m2/repository/com/boxfuse/samples/hello/1.0/hello-1.0.war
+[INFO] Installing /var/lib/jenkins/workspace/tomcatdeploy/pom.xml to /var/lib/jenkins/.m2/repository/com/boxfuse/samples/hello/1.0/hello-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.864 s
+[INFO] Finished at: 2022-04-04T18:14:17Z
+[INFO] ------------------------------------------------------------------------
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+[DeployPublisher][INFO] Deploying /var/lib/jenkins/workspace/tomcatdeploy/target/hello-1.0.war to container Tomcat 8.x Remote with context null
+  Redeploying [/var/lib/jenkins/workspace/tomcatdeploy/target/hello-1.0.war]
+  Undeploying [/var/lib/jenkins/workspace/tomcatdeploy/target/hello-1.0.war]
+  Deploying [/var/lib/jenkins/workspace/tomcatdeploy/target/hello-1.0.war]
+Finished: SUCCESS
