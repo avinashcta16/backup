@@ -3,3 +3,61 @@ Running as SYSTEM
 Building on the built-in node in workspace /var/lib/jenkins/workspace/jenkinsbackup
 [jenkinsbackup] $ /bin/bash /tmp/jenkins7748195651952845022.sh
 Reinitialized existing Git repository in /var/lib/jenkins/.git/
+[master fbe4924] jenkins backup on date
+ 59 files changed, 21165 insertions(+), 573 deletions(-)
+ create mode 100644 jobs/jenkinsbackup/builds/26/build.xml
+ create mode 100644 jobs/jenkinsbackup/builds/27/changelog.xml
+ create mode 100644 jobs/jenkinsbackup/builds/27/log
+ delete mode 100644 logs/slaves/slave1/slave.log.1
+ delete mode 100644 logs/slaves/slave1/slave.log.10
+ delete mode 100644 logs/slaves/slave1/slave.log.2
+ delete mode 100644 logs/slaves/slave1/slave.log.3
+ delete mode 100644 logs/slaves/slave1/slave.log.4
+ delete mode 100644 logs/slaves/slave1/slave.log.5
+ delete mode 100644 logs/slaves/slave1/slave.log.6
+ delete mode 100644 logs/slaves/slave1/slave.log.7
+ delete mode 100644 logs/slaves/slave1/slave.log.8
+ delete mode 100644 logs/slaves/slave1/slave.log.9
+ rewrite logs/tasks/Periodic background build discarder.log (87%)
+ copy logs/tasks/{Periodic background build discarder.log => Periodic background build discarder.log.1} (100%)
+ create mode 100644 logs/tasks/Periodic background build discarder.log.2
+ create mode 100644 plugins/github-pullrequest.jpi
+ create mode 100644 plugins/github-pullrequest/.timestamp2
+ create mode 100644 plugins/github-pullrequest/META-INF/MANIFEST.MF
+ create mode 100644 plugins/github-pullrequest/META-INF/maven/org.jenkins-ci.plugins/github-pullrequest/pom.properties
+ create mode 100644 plugins/github-pullrequest/META-INF/maven/org.jenkins-ci.plugins/github-pullrequest/pom.xml
+ create mode 100644 plugins/github-pullrequest/WEB-INF/lib/commons-codec-1.9.jar
+ create mode 100644 plugins/github-pullrequest/WEB-INF/lib/github-pullrequest.jar
+ create mode 100644 plugins/github-pullrequest/WEB-INF/licenses.xml
+ create mode 100644 plugins/github-pullrequest/git-branch.svg
+ create mode 100644 plugins/github-pullrequest/git-pull-request.svg
+ create mode 100644 plugins/github-pullrequest/git-tag.svg
+ create mode 100644 plugins/github-pullrequest/scripts/featureButton.js
+ create mode 100644 plugins/jquery-detached.jpi
+ create mode 100644 plugins/jquery-detached/.timestamp2
+ create mode 100644 plugins/jquery-detached/META-INF/MANIFEST.MF
+ create mode 100644 plugins/jquery-detached/META-INF/maven/org.jenkins-ci.ui/jquery-detached/pom.properties
+ create mode 100644 plugins/jquery-detached/META-INF/maven/org.jenkins-ci.ui/jquery-detached/pom.xml
+ create mode 100644 plugins/jquery-detached/WEB-INF/lib/jquery-detached.jar
+ create mode 100644 plugins/jquery-detached/WEB-INF/licenses.xml
+ create mode 100644 plugins/jquery-detached/jsmodules/jquery2.js
+ create mode 100644 plugins/jquery-detached/jsmodules/jqueryui1.js
+ create mode 100644 plugins/jquery-detached/jsmodules/jqueryui1/images/ui-bg_diagonals-thick_18_b81900_40x40.png
+ create mode 100644 plugins/jquery-detached/jsmodules/jqueryui1/images/ui-bg_diagonals-thick_20_666666_40x40.png
+ create mode 100644 plugins/jquery-detached/jsmodules/jqueryui1/images/ui-bg_flat_10_000000_40x100.png
+ create mode 100644 plugins/jquery-detached/jsmodules/jqueryui1/images/ui-bg_glass_100_f6f6f6_1x400.png
+ create mode 100644 plugins/jquery-detached/jsmodules/jqueryui1/images/ui-bg_glass_100_fdf5ce_1x400.png
+ create mode 100644 plugins/jquery-detached/jsmodules/jqueryui1/images/ui-bg_glass_65_ffffff_1x400.png
+ create mode 100644 plugins/jquery-detached/jsmodules/jqueryui1/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+ create mode 100644 plugins/jquery-detached/jsmodules/jqueryui1/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+ create mode 100644 plugins/jquery-detached/jsmodules/jqueryui1/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+ create mode 100644 plugins/jquery-detached/jsmodules/jqueryui1/images/ui-icons_222222_256x240.png
+ create mode 100644 plugins/jquery-detached/jsmodules/jqueryui1/images/ui-icons_228ef1_256x240.png
+ create mode 100644 plugins/jquery-detached/jsmodules/jqueryui1/images/ui-icons_ef8c08_256x240.png
+ create mode 100644 plugins/jquery-detached/jsmodules/jqueryui1/images/ui-icons_ffd27a_256x240.png
+ create mode 100644 plugins/jquery-detached/jsmodules/jqueryui1/images/ui-icons_ffffff_256x240.png
+ create mode 100644 plugins/jquery-detached/jsmodules/jqueryui1/style.css
+error: Terminal is dumb, but EDITOR unset
+fatal: could not read Username for 'https://github.com': No such device or address
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
