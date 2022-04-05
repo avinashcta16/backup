@@ -28,7 +28,7 @@ git config --global user.name avinashcta16
 git config --global user.email avinashcta16@gmail.com 
    
  
-git push https://github.com/avinashcta16/jenkinsbackup.git</command>
+git push git@github.com:avinashcta16/jenkinsbackup.git</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
