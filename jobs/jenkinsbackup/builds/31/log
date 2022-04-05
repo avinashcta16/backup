@@ -3,3 +3,17 @@ Running as SYSTEM
 Building on the built-in node in workspace /var/lib/jenkins/workspace/jenkinsbackup
 [jenkinsbackup] $ /bin/bash /tmp/jenkins1108896399280157370.sh
 Reinitialized existing Git repository in /var/lib/jenkins/.git/
+[master adf6e13] jenkins backup on date
+ 15 files changed, 160 insertions(+), 31 deletions(-)
+ create mode 100644 jobs/jenkinsbackup/builds/30/build.xml
+ create mode 100644 jobs/jenkinsbackup/builds/31/changelog.xml
+ create mode 100644 jobs/jenkinsbackup/builds/31/log
+ create mode 100644 logs/slaves/slave1/slave.log.3
+ create mode 100644 logs/slaves/slave1/slave.log.4
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
