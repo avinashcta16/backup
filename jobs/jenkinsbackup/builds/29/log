@@ -3,3 +3,13 @@ Running as SYSTEM
 Building on the built-in node in workspace /var/lib/jenkins/workspace/jenkinsbackup
 [jenkinsbackup] $ /bin/bash /tmp/jenkins5571886738568023143.sh
 Reinitialized existing Git repository in /var/lib/jenkins/.git/
+[master cad1f87] jenkins backup on date
+ 13 files changed, 157 insertions(+), 21 deletions(-)
+ create mode 100644 jobs/jenkinsbackup/builds/28/build.xml
+ create mode 100644 jobs/jenkinsbackup/builds/29/changelog.xml
+ create mode 100644 jobs/jenkinsbackup/builds/29/log
+ create mode 100644 logs/slaves/slave1/slave.log.1
+ create mode 100644 logs/slaves/slave1/slave.log.2
+fatal: could not read Username for 'https://github.com': No such device or address
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
