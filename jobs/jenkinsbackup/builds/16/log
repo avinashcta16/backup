@@ -3,3 +3,25 @@ Running as SYSTEM
 Building on the built-in node in workspace /var/lib/jenkins/workspace/jenkinsbackup
 [jenkinsbackup] $ /bin/bash /tmp/jenkins5729656658384494210.sh
 Reinitialized existing Git repository in /var/lib/jenkins/.git/
+[master 7a766e1] jenkins backup on date
+ Committer: Jenkins Automation Server <jenkins@ip-172-31-18-110.us-east-2.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 69 insertions(+), 10 deletions(-)
+ create mode 100644 jobs/jenkinsbackup/builds/15/build.xml
+ create mode 100644 jobs/jenkinsbackup/builds/16/changelog.xml
+ create mode 100644 jobs/jenkinsbackup/builds/16/log
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/avinashcta16/jenkinsbackup.git'
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
