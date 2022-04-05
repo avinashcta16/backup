@@ -3,3 +3,7 @@ SSHLauncher{host='172.31.16.179', port=22, credentialsId='slaveconf', jvmOptions
 [04/05/22 07:03:00] [SSH] Opening SSH connection to 172.31.16.179:22.
 connect timed out
 SSH Connection failed with IOException: "connect timed out", retrying in 15 seconds. There are 10 more retries left.
+connect timed out
+SSH Connection failed with IOException: "connect timed out", retrying in 15 seconds. There are 9 more retries left.
+connect timed out
+SSH Connection failed with IOException: "connect timed out", retrying in 15 seconds. There are 8 more retries left.

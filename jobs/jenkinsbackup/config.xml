@@ -18,16 +18,15 @@
 cd /var/lib/jenkins
 
  
-
- 
 git init
 
 
 git add *
+
 git commit -m &quot;jenkins backup on &quot;date&quot;&quot;
 
-git push --set-upstream https://github.com/avinashcta16/jenkinsbackup.git master
-</command>
+git remote add origin https://github.com/avinashcta16/jenkinsbackup.git
+git push -u origin main</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
