@@ -3,3 +3,39 @@ Running as SYSTEM
 Building on the built-in node in workspace /var/lib/jenkins/workspace/jenkinsbackup
 [jenkinsbackup] $ /bin/bash /tmp/jenkins8654059375076467011.sh
 Reinitialized existing Git repository in /var/lib/jenkins/.git/
+[master fc9d7e5] jenkins backup on date
+ 35 files changed, 391 insertions(+), 11 deletions(-)
+ create mode 100644 jobs/jenkinsbackup/builds/33/build.xml
+ create mode 100644 jobs/jenkinsbackup/builds/34/changelog.xml
+ create mode 100644 jobs/jenkinsbackup/builds/34/log
+ create mode 100644 plugins/github-oauth.jpi
+ create mode 100644 plugins/github-oauth/.timestamp2
+ create mode 100644 plugins/github-oauth/META-INF/MANIFEST.MF
+ create mode 100644 plugins/github-oauth/META-INF/maven/org.jenkins-ci.plugins/github-oauth/pom.properties
+ create mode 100644 plugins/github-oauth/META-INF/maven/org.jenkins-ci.plugins/github-oauth/pom.xml
+ create mode 100644 plugins/github-oauth/WEB-INF/lib/github-oauth.jar
+ create mode 100644 plugins/github-oauth/WEB-INF/licenses.xml
+ create mode 100644 plugins/github-oauth/github.png
+ create mode 100644 plugins/github-oauth/help/auth/admin-user-names-help.html
+ create mode 100644 plugins/github-oauth/help/auth/grant-create-job-to-authenticated-help.html
+ create mode 100644 plugins/github-oauth/help/auth/grant-read-to-anonymous-help.html
+ create mode 100644 plugins/github-oauth/help/auth/grant-read-to-authenticated-help.html
+ create mode 100644 plugins/github-oauth/help/auth/grant-read-to-cctray-help.html
+ create mode 100644 plugins/github-oauth/help/auth/grant-read-to-github-webhook-help.html
+ create mode 100644 plugins/github-oauth/help/auth/grant-viewstatus-to-anonymous-help.html
+ create mode 100644 plugins/github-oauth/help/auth/organization-names-help.html
+ create mode 100644 plugins/github-oauth/help/auth/use-repository-permissions-help.html
+ create mode 100644 plugins/github-oauth/help/help-authorization-strategy.html
+ create mode 100644 plugins/github-oauth/help/help-security-realm.html
+ create mode 100644 plugins/github-oauth/help/realm/client-id-help.html
+ create mode 100644 plugins/github-oauth/help/realm/client-secret-help.html
+ create mode 100644 plugins/github-oauth/help/realm/github-api-uri-help.html
+ create mode 100644 plugins/github-oauth/help/realm/github-web-uri-help.html
+ create mode 100644 plugins/github-oauth/help/realm/oauth-scopes-help.html
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
