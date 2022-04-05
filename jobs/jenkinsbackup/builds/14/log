@@ -3,3 +3,32 @@ Running as SYSTEM
 Building on the built-in node in workspace /var/lib/jenkins/workspace/jenkinsbackup
 [jenkinsbackup] $ /bin/bash /tmp/jenkins9201397434451516220.sh
 Reinitialized existing Git repository in /var/lib/jenkins/.git/
+[master 791c43e] jenkins backup on date
+ Committer: Jenkins Automation Server <jenkins@ip-172-31-18-110.us-east-2.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 15 files changed, 1964 insertions(+), 38 deletions(-)
+ create mode 100644 jobs/jenkinsbackup/builds/13/build.xml
+ create mode 100644 jobs/jenkinsbackup/builds/14/changelog.xml
+ create mode 100644 jobs/jenkinsbackup/builds/14/log
+ rewrite logs/slaves/slave1/slave.log (77%)
+ rewrite logs/slaves/slave1/slave.log.3 (92%)
+ copy logs/slaves/slave1/{slave.log.3 => slave.log.4} (100%)
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/avinashcta16/jenkinsbackup.git master
+
+fatal: could not read Username for 'https://github.com': No such device or address
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
