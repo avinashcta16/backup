@@ -3,3 +3,16 @@ Running as SYSTEM
 Building on the built-in node in workspace /var/lib/jenkins/workspace/jenkinsbackup
 [jenkinsbackup] $ /bin/bash /tmp/jenkins8665153237805934659.sh
 Reinitialized existing Git repository in /var/lib/jenkins/.git/
+[master bc367b0] jenkins backup on date
+ 10 files changed, 54 insertions(+), 8 deletions(-)
+ create mode 100644 jobs/jenkinsbackup/builds/25/build.xml
+ create mode 100644 jobs/jenkinsbackup/builds/26/changelog.xml
+ create mode 100644 jobs/jenkinsbackup/builds/26/log
+error: Terminal is dumb, but EDITOR unset
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

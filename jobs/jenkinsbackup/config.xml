@@ -3,7 +3,12 @@
   <actions/>
   <description>script take jenkins backup </description>
   <keepDependencies>false</keepDependencies>
-  <properties/>
+  <properties>
+    <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.34.3">
+      <projectUrl>https://github.com/avinashcta16/jenkinsbackup.git/</projectUrl>
+      <displayName></displayName>
+    </com.coravy.hudson.plugins.github.GithubProjectProperty>
+  </properties>
   <scm class="hudson.scm.NullSCM"/>
   <canRoam>true</canRoam>
   <disabled>false</disabled>
@@ -27,7 +32,7 @@ git commit -m &quot;jenkins backup on &quot;date&quot;&quot;
 
 git config --global user.email avinashcta16@gmail.com 
   git config --global --edit
-git push git@github.com:avinashcta16/jenkinsbackup.git</command>
+git push https://github.com/avinashcta16/jenkinsbackup.git</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
