@@ -2,3 +2,16 @@ Started by user [8mha:////4BUXExCvYfgfyzPxyIIFbTcroj3K37tew+z9gws45brgAAAAlx+LC
 Running as SYSTEM
 Building on the built-in node in workspace /var/lib/jenkins/workspace/jenkinsbackup
 [jenkinsbackup] $ /bin/bash /tmp/jenkins878177143137646146.sh
+Reinitialized existing Git repository in /var/lib/jenkins/.git/
+[master 6c88173] jenkins backup on date
+ 6 files changed, 52 insertions(+), 4 deletions(-)
+ create mode 100644 jobs/jenkinsbackup/builds/31/build.xml
+ create mode 100644 jobs/jenkinsbackup/builds/32/changelog.xml
+ create mode 100644 jobs/jenkinsbackup/builds/32/log
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
