@@ -26,7 +26,7 @@ git add *
 git commit -m &quot;jenkins backup on &quot;date&quot;&quot;
 
 git remote add origin https://github.com/avinashcta16/jenkinsbackup.git
-git push -u origin master</command>
+git push https://github.com/avinashcta16/jenkinsbackup.git</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

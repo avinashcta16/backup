@@ -3,3 +3,25 @@ Running as SYSTEM
 Building on the built-in node in workspace /var/lib/jenkins/workspace/jenkinsbackup
 [jenkinsbackup] $ /bin/bash /tmp/jenkins4091993309503916506.sh
 Reinitialized existing Git repository in /var/lib/jenkins/.git/
+[master 6f9749a] jenkins backup on date
+ Committer: Jenkins Automation Server <jenkins@ip-172-31-18-110.us-east-2.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 69 insertions(+), 8 deletions(-)
+ create mode 100644 jobs/jenkinsbackup/builds/16/build.xml
+ create mode 100644 jobs/jenkinsbackup/builds/17/changelog.xml
+ create mode 100644 jobs/jenkinsbackup/builds/17/log
+fatal: remote origin already exists.
+fatal: could not read Username for 'https://github.com': No such device or address
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
